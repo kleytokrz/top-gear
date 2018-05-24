@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Store</title>
+	<meta name="description" content="first tests"><br>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+		.city {
+					 background-color: #116cff;
+				color: white;
+				 	padding: 1px;
+				 	margin: 10px;
+				}
+	.test {
+				margin: 10px; 
+				border-radius: 10px
+				}
+
+	.checkbox {margin:0 0 0 220px;}
+	
+	.icon {margin:0 0 0 0px;}
+
+	</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary test">
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarColor01"> 
+  	<ul class="navbar-nav mr-auto">
+     	<a style="font-size:30px;"" class="nav-link" href="#">All Books</a>
+      <li style="font-size:30px;" class="nav-item">
+        <a class="nav-link" href="#">Books & Ebooks</a>
+      </li>
+      <li style="font-size:30px;"" class="nav-item">
+        <a class="nav-link" href="#">Magazines and Journals</a>
+      </li>
+      <li style="font-size:30px;"" class="nav-item">
+        <a class="nav-link" href="#">Media</a>
+      </li>
+   	</ul>
+ </div>
+</nav>
+
+<div class="container">
+<div class="row">
+	<div class="form-group col-lg-6">	
+	     <input type="text" class="form-control" placeholder="Search">
+	 </div>
+	 <div class="col-lg-4">
+	 		 <button type="button" class="btn btn-primary">Search</button>
+	 		
+	 </div>	
+</div>
+</div>
+
+
+
+<div class="container">
+<button type="button" class="btn btn-link"><small>Advanced Search</small></button>
+</div>
+<div class="col-sm-12">
+<h2>Search result:</h2>
+</div>
+<div class="row">
+	<div class="col-sm-8">
+		<button type="button" class="btn btn-link"><small>previous</small></button><small>|</small><button type="button" class="btn btn-link"><Small>next</small></button>
+	</div>
+	<div class="col-sm-2">
+		<select class="custom-select">
+	      <option value="1">A-Z</option>
+	      <option value="2">Z-A</option>
+	      <option value="3">CHEAPER</option>
+	      <option value="3"> MOST EXPENSIVE</option>
+		</select>
+	</div>
+	<div class="col-sm-2">
+	   	<select class="custom-select">
+	      <option selected="">100 PER PAGE</option>
+	      <option value="1">50 PER PAGE</option>
+	      <option value="2">25 PER PAGE</option>
+	      <option value="3">10 PER PAGE</option>
+	    </select>
+  	</div>
+</div>
+
+<div class="row">
+<div class="col-sm-9">
+	<h2 class="city">Description</h2>
+</div>	
+<div class="col-sm-3">
+	<h2 class="city">Select</h2>
+</div>
+</div>
+<div class="row">
+		<div class="col-sm-2 icon">
+			<img src="download (1).jpeg" alt="Mountain View" width="70" height="70">
+		</div>
+		<div class="col-sm-6">
+			<li style="font-size:30px;"><i><b>1. Book1</i></b><br>
+					Lenguage: English<br> 
+					Publisher: Random [time- life books] 
+				</li>
+			</div>
+					<!--div class="form-group"-->
+					<div class="col-sm-4">
+					<div class="custom-control custom-checkbox checkbox">
+  						<input type="checkbox" class="custom-control-input" id="customCheck1">
+  						<label class="custom-control-label" for="customCheck1"></label>
+						</div>
+					</div>
+</div>
+<div class="row">
+		<div class="col-sm-2">
+			<img src="download (1).jpeg" alt="Mountain View" width="70" height="70">
+		</div>
+		<div class="col-sm-6">
+			<li style="font-size:30px;"><i><b>2. Book2</i></b><br>
+					Lenguage:portuguese<br>
+					Publisher:Aleatoria [editora ficticia]
+				</li>
+			</div>
+					<!--div class="form-group"-->
+					<div class="col-sm-4">
+					<div class="custom-control custom-checkbox checkbox">
+  						<input type="checkbox" class="custom-control-input" id="customCheck2">
+  						<label class="custom-control-label" for="customCheck2"></label>
+						</div>
+					</div>
+</div>
+<div class="row">
+		<div class="col-sm-2">
+			<img src="download (1).jpeg" alt="Mountain View" width="70" height="70">
+		</div>
+		<div class="col-sm-6">
+			<li style="font-size:30px;"><i><b>3. Book 3</i></b><br>
+  				Lenguage: Spanish <br>
+  				Publisher: Aleatorio [¿que pasó?]
+  			</li>
+  		</div>
+ 				<!--- <div class="form-group"> -->
+ 				<div class="col-sm-4">
+ 					<div class="custom-control custom-checkbox checkbox">
+      					<input type="checkbox" class="custom-control-input" id="customCheck3">
+      					<label class="custom-control-label" for="customCheck3"></label>
+   					</div>
+   				</div>
+</div>
+<div class="container">
+	<div class="row">
+			<div class="col-sm-10"></div>
+			<div class="col-sm-1">
+	   	 		<div class="btn">
+      				 <button type="button" class="btn btn-primary">Cancel</button>
+  				</div>
+  			</div>
+			<div class="col-sm-1">
+	   	 		<div class="btn">
+      				 <button type="button" class="btn btn-primary">Reserve</button>
+  				</div>
+  			</div>
+</div>
+</div>
+<div class="container">
+	<h2>Speaker notes</h2>
+</div>
+
+<div class="row">
+		<div class="col-sm-1">
+			<div class="btn">
+	      		 <i style="font-size:24px" class="fa">&#xf191;</i>
+	  		</div>
+	  	</div>
+		<div class="col-sm-4">
+			<img src="download (1).jpeg" alt="Mountain View" width="70" height="70">
+		</div>
+		<div class="col-sm-4">
+			<img src="download (1).jpeg" alt="Mountain View" width="70" height="70">
+		</div>
+		<div class="col-sm-2">
+			<img src="download (1).jpeg" alt="Mountain View" width="70" height="70">
+		</div>
+		<div class="col-sm-1">
+			<div class="btn">
+	      		 <i style="font-size:24px" class="fa">&#xf152;</i></button>
+	  		</div>
+	  	</div>
+</div>
+</body>
